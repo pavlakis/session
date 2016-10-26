@@ -48,6 +48,13 @@ interface SessionInterface
      */
     public function get($name, $default = null);
 
+
+    /**
+     * @param $name
+     * @return void
+     */
+    public function remove($name);
+
     /**
      * @param $name
      * @return bool
