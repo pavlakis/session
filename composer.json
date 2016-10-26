@@ -1,0 +1,26 @@
+{
+  "name": "pavlakis/session",
+  "description": "A session interface to easily swap between different stand-alone Session packages.",
+  "keywords": [
+    "session"
+  ],
+  "homepage": "https://github.com/pavlakis/session",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Antonis Pavlakis",
+      "homepage": "https://github.com/pavlakis/session"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Pavlakis\\Http\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "require-dev": {
+  }
+}
