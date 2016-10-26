@@ -7,7 +7,7 @@
  * @author      Antonis Pavlakis (@pavlakis)
  * @license     https://github.com/pavlakis/session/blob/master/LICENSE (MIT License)
  */
-namespace Pavlakis\Http\SessionInterface;
+namespace Pavlakis\Http\Session;
 
 
 interface SessionInterface
